@@ -1,0 +1,94 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "it-IT": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "name": "alexa-video-example",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/cb95/ca88365d866d4bba9277d2ada82a0192/APP_ICON?versionId=aNTc7AWntZR5tpRd6rSv8yVTm3D3kqEd&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190731T074402Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190731%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=771aa8be093e9a9303a1416ed824668399e6a9338f8907a2de4c720a770e538b",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fc33/0e74980903a745d69b5c462291163f76/APP_ICON_LARGE?versionId=QZD.VEtFycDK1s0gYDxNP.1eXKb_Q8ql&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190731T074402Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190731%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6560b215c8c7179e0e40d507d4beeca8dad6240c6071691a203f46bc1cfbb418",
+          "summary": "A Video Example Skill For Alexa",
+          "description": "Una Skill di esempio per gestione video e APL",
+          "examplePhrases": [
+            "Alexa, apri calcio tv"
+          ],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Simple open the skill",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [
+        "IT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-alexa-video-example-default"
+        },
+        "interfaces": [
+          {
+            "type": "VIDEO_APP"
+          },
+          {
+            "type": "ALEXA_PRESENTATION_APL",
+            "supportedViewports": [
+              {
+                "mode": "HUB",
+                "shape": "ROUND",
+                "minWidth": 480,
+                "maxWidth": 480,
+                "minHeight": 480,
+                "maxHeight": 480
+              },
+              {
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "minWidth": 1024,
+                "maxWidth": 1024,
+                "minHeight": 600,
+                "maxHeight": 600
+              },
+              {
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "minWidth": 1280,
+                "maxWidth": 1280,
+                "minHeight": 800,
+                "maxHeight": 800
+              },
+              {
+                "mode": "TV",
+                "shape": "RECTANGLE",
+                "minWidth": 960,
+                "maxWidth": 960,
+                "minHeight": 540,
+                "maxHeight": 540
+              },
+              {
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "minWidth": 960,
+                "maxWidth": 960,
+                "minHeight": 480,
+                "maxHeight": 480
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

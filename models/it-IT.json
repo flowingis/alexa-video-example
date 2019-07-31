@@ -1,0 +1,47 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "calcio tv",
+            "intents": [
+                {
+                    "name": "ShowVideoIntent",
+                    "slots": [],
+                    "samples": [
+                        "scegli video uno",
+                        "scegli video due",
+                        "scegli video tre",
+                        "scegli video quattro"
+                    ]
+                },
+                {
+                    "name": "ShowAplIntent",
+                    "slots": [],
+                    "samples": [
+                        "mostrami un'immagine"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}

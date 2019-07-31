@@ -1,0 +1,173 @@
+{
+    "listTemplate2Metadata": {
+      "type": "object",
+      "objectId": "lt1Metadata",
+      "backgroundImage": {
+        "contentDescription": null,
+        "smallSourceUrl": null,
+        "largeSourceUrl": null,
+        "sources": [
+          {
+            "url": "https://files-biiqnhkji.now.sh",
+            "size": "small",
+            "widthPixels": 0,
+            "heightPixels": 0
+          },
+          {
+            "url": "https://files-biiqnhkji.now.sh",
+            "size": "large",
+            "widthPixels": 0,
+            "heightPixels": 0
+          }
+        ]
+      },
+      "title": "Calcio TV",
+      "logoUrl": "https://files-hxdx8nono.now.sh/"
+    },
+    "listTemplate2ListData": {
+      "type": "list",
+      "listId": "lt2Sample",
+      "totalNumberOfItems": 10,
+      "hintText": "Prova, \"Alexa, Scegli video 1\"",
+      "listPage": {
+        "listItems": [
+          {
+            "listItemIdentifier": "video001",
+            "ordinalNumber": 1,
+            "textContent": {
+              "primaryText": {
+                "type": "PlainText",
+                "text": "Zaniolo"
+              },
+              "secondaryText": {
+                "type": "PlainText",
+                "text": "Gelo con la Roma"
+              }
+            },
+            "image": {
+              "contentDescription": null,
+              "smallSourceUrl": null,
+              "largeSourceUrl": null,
+              "sources": [
+                {
+                  "url": "https://files-clzox4jmx.now.sh",
+                  "size": "small",
+                  "widthPixels": 0,
+                  "heightPixels": 0
+                },
+                {
+                  "url": "https://files-clzox4jmx.now.sh",
+                  "size": "large",
+                  "widthPixels": 0,
+                  "heightPixels": 0
+                }
+              ]
+            },
+            "token": "video001"
+          },
+          {
+            "listItemIdentifier": "video002",
+            "ordinalNumber": 2,
+            "textContent": {
+              "primaryText": {
+                "type": "PlainText",
+                "text": "Donnarumma"
+              },
+              "secondaryText": {
+                "type": "PlainText",
+                "text": "Ha le idee chiare sul futuro"
+              }
+            },
+            "image": {
+              "contentDescription": null,
+              "smallSourceUrl": null,
+              "largeSourceUrl": null,
+              "sources": [
+                {
+                  "url": "https://files-3e302lmpo.now.sh",
+                  "size": "small",
+                  "widthPixels": 0,
+                  "heightPixels": 0
+                },
+                {
+                  "url": "https://files-3e302lmpo.now.sh",
+                  "size": "large",
+                  "widthPixels": 0,
+                  "heightPixels": 0
+                }
+              ]
+            },
+            "token": "video002"
+          },
+          {
+            "listItemIdentifier": "video003",
+            "ordinalNumber": 2,
+            "textContent": {
+              "primaryText": {
+                "type": "PlainText",
+                "text": "Messi"
+              },
+              "secondaryText": {
+                "type": "PlainText",
+                "text": "Rosso e premiazione disertata "
+              }
+            },
+            "image": {
+              "contentDescription": null,
+              "smallSourceUrl": null,
+              "largeSourceUrl": null,
+              "sources": [
+                {
+                  "url": "https://files-prsfs2z3f.now.sh",
+                  "size": "small",
+                  "widthPixels": 0,
+                  "heightPixels": 0
+                },
+                {
+                  "url": "https://files-prsfs2z3f.now.sh",
+                  "size": "large",
+                  "widthPixels": 0,
+                  "heightPixels": 0
+                }
+              ]
+            },
+            "token": "video003"
+          },
+          {
+            "listItemIdentifier": "video004",
+            "ordinalNumber": 2,
+            "textContent": {
+              "primaryText": {
+                "type": "PlainText",
+                "text": "Elshaarawy"
+              },
+              "secondaryText": {
+                "type": "PlainText",
+                "text": "Verso l'addio alla Roma e all'Italia"
+              }
+            },
+            "image": {
+              "contentDescription": null,
+              "smallSourceUrl": null,
+              "largeSourceUrl": null,
+              "sources": [
+                {
+                  "url": "https://files-hmdy6jadb.now.sh",
+                  "size": "small",
+                  "widthPixels": 0,
+                  "heightPixels": 0
+                },
+                {
+                  "url": "https://files-hmdy6jadb.now.sh",
+                  "size": "large",
+                  "widthPixels": 0,
+                  "heightPixels": 0
+                }
+              ]
+            },
+            "token": "video004"
+          }
+        ]
+      }
+    }
+  }
